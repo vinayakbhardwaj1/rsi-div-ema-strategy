@@ -9,7 +9,7 @@ This repository implements a simple but powerful trading strategy based on:
 - Fetches BTC/USD historical data (via Twelve Data)
 - Identifies RSI divergence-based BUY signals
 - Confirms trend using EMA-50 > EMA-200
-- Backtests with TP = 1.5%, SL = 1%, max hold = 10 candles
+- Backtests with TP = 2%, SL = 1%, max hold = 10 candles
 - Exports trade results to CSV
 
 ### 🧠 Accuracy

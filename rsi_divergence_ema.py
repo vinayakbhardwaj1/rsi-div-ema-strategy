@@ -69,7 +69,7 @@ def calculate_max_drawdown(pnl_list):
         drawdowns.append(drawdown)
     return max(drawdowns)
 
-def backtest_with_tp_sl(df, signals, tp_pct=0.015, sl_pct=0.01, max_hold=10):
+def backtest_with_tp_sl(df, signals, tp_pct=0.02, sl_pct=0.01, max_hold=10):
     trades = []
     pnl = []
 
