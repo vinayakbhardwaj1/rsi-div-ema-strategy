@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 import matplotlib
-matplotlib.use("TkAgg")
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 plt.ion()
 import os
@@ -167,8 +167,8 @@ def plot_strategy(df, signals, trades):
     ax2.grid(True)
 
     plt.tight_layout()
-    plt.show(block=True)
-
+    plt.savefig("backtests/trade_chart.png")
+    print("📊 Trade chart saved as 'backtests/trade_chart.png'")
 # ------------------------------------------
 # Main
 # ------------------------------------------
